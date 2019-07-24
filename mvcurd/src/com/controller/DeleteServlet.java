@@ -38,7 +38,7 @@ ResultSet rs=ies.getResultSet();
 		{
 			Employee emp=new Employee();
 			emp.setId(Integer.parseInt(rs.getString(1)));
-			emp.setName(rs.getString(2));
+//			emp.setName(rs.getString(2));
 			System.out.println(emp.getName());
 			emp.setEmail(rs.getString(3));
 			emp.setAdress(rs.getString(4));
