@@ -40,12 +40,12 @@ ResultSet rs=ies.getResultSet();
 			emp.setId(Integer.parseInt(rs.getString(1)));
 //			emp.setName(rs.getString(2));
 			System.out.println(emp.getName());
-			emp.setEmail(rs.getString(3));
+			/*emp.setEmail(rs.getString(3));
 			emp.setAdress(rs.getString(4));
 			emp.setGender(rs.getString(5));
 			emp.setHobbies(rs.getString(6));
 			emp.setOccupation(rs.getString(7));
-				
+				*/
 			list.add(emp);
 		}
 	} catch (SQLException e) {
