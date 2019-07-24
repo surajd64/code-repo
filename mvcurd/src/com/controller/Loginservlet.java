@@ -17,9 +17,13 @@ public class Loginservlet extends HttpServlet{
 	protected void service(HttpServletRequest req, HttpServletResponse res) throws ServletException, IOException {
 
 String uname=req.getParameter("uname");
-System.Out.println(usrnm);
+
+System.out.println(uname);
+
 String pass=req.getParameter("pass");
-System.Out.println(pass);
+
+System.out.println(password);
+
 if(uname.equals("admin")&&pass.equals("admin"))
 {
 	req.getRequestDispatcher("display").forward(req, res);
