@@ -16,7 +16,7 @@ import com.iservice.iEmployeeService;
 import com.module.Employee;
 import com.serviceimpl.EmployeeServiceImpl;
 
-@WebServlet("/delete")
+@WebServlet("/delete1")
 public class DeleteServlet extends HttpServlet{
 Integer i;
 	@Override
