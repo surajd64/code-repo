@@ -23,6 +23,8 @@ public class Employee {
 	private String hobbies;
 	
 	private String occupation;
+	
+	private String DOB;
 
 
 	public String getName() {
