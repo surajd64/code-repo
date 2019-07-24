@@ -14,7 +14,7 @@ public class Connectivity {
 	
 	private static final String connect="jdbc:mysql://localhost:3306/test2";
 	
-	private static final String user="root";
+	private static final String user="admin";
 
 	private static final String pass="root";
 	
