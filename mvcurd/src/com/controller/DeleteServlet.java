@@ -49,7 +49,7 @@ ResultSet rs=ies.getResultSet();
 		}
 	} catch (SQLException e) {
 		// TODO Auto-generated catch block
-		e.printStackTrace();
+		System.Out.println(e.printStackTrace());
 	}
 	req.setAttribute("data",list);
 	req.getRequestDispatcher("display.jsp").forward(req, res);
