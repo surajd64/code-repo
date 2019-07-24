@@ -12,7 +12,7 @@ public class Connectivity {
 
 	private static final String driver="com.mysql.jdbc.Driver";
 	
-	private static final String connect="jdbc:mysql://localhost:3306/test2";
+	private static final String connect="jdbc:mysql://localhost:3306/test1";
 	
 	private static final String user="root";
 
